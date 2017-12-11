@@ -11,7 +11,7 @@ class Prime {
                     } else {
                         chk++
                     }
-                } while (chk < Math.sqrt(this.toDouble()))
+                } while (chk <= Math.sqrt(this.toDouble()))
                 return true
             }
         }
